@@ -6,11 +6,13 @@ html, body, #home {
 
 body {
 	background: url(../imagens/capa.png),
-				url(../imagens/ruido.png),
-				linear-gradient(50deg,#ff4169,#7c26f8);
+	url(../imagens/ruido.png),
+	linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
-}
+	background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+	background-size: cover;
+}	
 
 /* Barra de navegação
 -----------------------------*/
@@ -64,7 +66,7 @@ nav.navbar-transparente {
 }
 
 .btn-branco {
-	border: 2px solid white;
+	border: 2px solid rgb(0, 247, 255);
 }
 
 .btn-branco:hover {
