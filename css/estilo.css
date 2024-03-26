@@ -178,6 +178,12 @@ h3 {
 		margin: 10px 15px;
 		font-size: 1em;
 	}
+
+	.col-md-6 {
+		padding: 100px 0px 0px 0px;
+		height: 30%;
+		width: 40%;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
