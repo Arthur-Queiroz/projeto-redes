@@ -28,7 +28,7 @@ main {
     margin: 40px 0px 40px 0px;
     border: 25px 0px 0px 25px;
     border-radius: 25px;
-    border: 2px solid hsl(192, 100%, 67%);
+    border: 2px solid hsl(192, 100%, 95%);
 }
 
 .img-container {
@@ -49,3 +49,7 @@ main {
 h2 {
     color: #6200ff;
 }
+
+svg:hover path {
+    fill: #fff;
+  }

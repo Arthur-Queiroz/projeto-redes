@@ -116,6 +116,13 @@ nav.navbar-transparente {
 	padding-left: 80px;
 }
 
+.servicos-img {
+	width: 500px;
+	height: 500px;
+	border: 8px solid #7c25f8;
+	border-radius: 20px;
+}
+
 /* Rodapé
 -----------------------------*/
 footer {
